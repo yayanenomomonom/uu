@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="color-scheme" content="light only" />
+  <title>Mati World Domination!!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="music.css">
+  <link href="https://fonts.googleapis.com/css?display=swap&family=Questrial:400,400italic%7CEater:400,400italic%7CPoppins:500,500italic,700,700italic%7CCrimson+Text:600,600italic,700,700italic%7CKosugi+Maru:400,400italic%7CKrona+One:400,400italic%7CFredoka+One:400,400italic%7CShrikhand:400,400italic%7CQuicksand:700,700italic%7CComic+Neue:700,700italic%7CSpecial+Elite:400,400italic"rel="stylesheet" type="text/css" />
+</head>
+<style>
+body {
+  overflow-x:hidden; 
+}
+bohemian2 {
+  color: #ffccdc;
+  filter: drop-shadow(1px 1px 0 #2E2E2E) drop-shadow(-1px 1px 0 #2E2E2E) drop-shadow(0 -1px 0 #2E2E2E) drop-shadow(1px 0 #2E2E2E);
+  font-family: bohemian;
+  font-size: 17px;
+}
+</style>
+<style>
+#aldoxito {
+  margin-bottom: 5px;  
+  margin-left: 5px;  
+  margin-right: 7px;
+  margin-top: 10px;
+  width: 186px;
+}
+#stamps {
+  height: 55px;
+}
+
+#blinkie {
+  height: 30px;
+}
+#blinkie2 {
+  height: 25px;
+}
+#cat{
+  height: 7px;
+  margin-left: 5px;
+}
+#divider {
+  width: 350px;
+}
+#seal {
+  width: 230px;
+}
+
+.bohemian3 {
+  border-bottom: #242424 1px solid;
+}
+.box {
+  border: 1px lightgrey solid;
+  height: 30px;
+}
+.box2 {
+  display: flex;
+  height: 55px;
+  margin: auto;
+  width:1200px;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+}
+.box06 { 
+  background : url(back01.gif); 
+  border: black, 1px, solid;
+  border-radius : 10px ; 
+  box-sizing : border-box ; 
+  margin : auto;
+  padding : 10px ; 
+}
+.box-inner { 
+  background : #fff ; 
+  border: black, 1px, dotted;
+  border-radius : 10px ; 
+  padding : 10px 
+}  
+.content {
+  border-image: url(frame.png) 8 fill round;
+  border-style: solid;
+  border-width: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  padding: 10px;
+  width: 600px;
+}
+.espacio2{
+  height: 30px;
+}
+.main {
+  background-image: url(pattern.png);
+  border: 1px dashed black;
+  display: flex;
+  height: 901px;
+  margin: auto;
+  padding: 10px;
+  width: 1183px;
+}
+.mainbox3 {
+  border: 1px black;
+  border-radius: 10px;
+  border-style: solid;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px;
+  background-size: 21px, 11rem;
+  background-repeat: repeat;
+  background-image: url(fondo.png);
+}
+.mainbox3punto1 {
+  width: 280px;
+  box-sizing: border-box;
+  border: 1px black;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 9px;
+  background-size: 21px, 11rem;
+  background-repeat: repeat;
+  background-image: url(fondo.png);
+  margin-left: 10px;
+}
+.navigation {
+  overflow-x:hidden; 
+  width: 250px;
+  overflow: auto;/*para activar la scrollbox*/
+  padding: 3px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  border: solid #242424 7px;
+  border-image: url(frame.png) 8 fill round;
+  border-radius: 10px;
+  position: relative;
+  margin-right: 10px;
+}
+.name {
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXZyazN5YXBsaWdvNjYwYWNrZm9uaXluMnZ2c2Njb3NhZTMxaW1qMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6LBkUElvOi9sA/giphy.gif);
+  border: 1px dashed black;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  width: 1183px;
+}
+.lace {
+  width: 257px;
+  height: 55px;
+  z-index: 2;
+  top: -9px;
+  left: -9px;
+  background: url(lacepink.gif);
+  background-repeat: repeat-x;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.lace2 {
+  left: -10px;
+  top: 8px;
+  width: 110%;
+  height: 20px;
+  z-index: -1;
+  background: url(frill.gif);
+  background-repeat: repeat-x;
+  background: contain ;
+  background-position: center;
+  position: relative;
+}
+.title {
+  background-image: url(bleh.jpg);
+  background-repeat: repeat;
+  background-size: 200px;
+  border-bottom: #242424 1px solid;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 30px;
+  margin: -10px;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center;
+}
+</style>
+
+//*** factos
+<script>
+function openTab(tabName) {
+  let x = document.getElementsByClassName("tab-content")
+  for (let i = 0; i < x.length; i++) {
+  x[i].style.display = "none"
+  }
+  document.getElementById(tabName).style.display = "flex"
+  }
+function generate() {
+  let a = document.getElementById("facts")
+  const b = [
+    "Tiene 17 añitos",
+    "Todavía no tiene licencia de conducir",
+    "Sus mechas azules en realidad son nervios expuestos",
+    "Aborrece a Gabriel Alejandro Salinas Kast del 4to Medio Generación 2026 Colegio Kendal English School Sede Las Condes",
+    "Es precupantemente chistosa",
+    "Su mejor amiga del mundo mundialoide es la Barbi :)",
+    ":3",
+    "Sigue a Paul McCartney en Ig",
+    "Le cae muy bien el Teacher Alexis Palacios",
+    "El proximo año va a tener 18 añitos",
+    "Odia a Redbull",
+    "Estudia en el Kendal English School",
+  ]
+  let i = Math.floor(Math.random() * b.length)
+  a.innerHTML = b[i]
+}
+</script>
+
+<div id="musicplayer">
+  <table class="controls">
+    <tr>
+      <td>
+        <div class="prev-track" onclick="prevTrack()"><img class="ctrlimg"src='back.png'></div>
+      </td>
+      <td>
+        <div class="playpause-track" onclick="playpauseTrack()"><img class="ctrlimg" src='play.png'></div>
+      </td>
+      <td>
+        <div class="next-track" onclick="nextTrack()"><img class="ctrlimg"src='next.png'></div>
+      </td>
+    </tr>
+  </table>
+  <div>
+    <marquee scrollamount="8" class="songtitle"></marquee>
+  </div>
+  <div class="seeking">
+    <div class="current-time">00:00</div>
+    <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+    <div class="total-duration">0:00</div>
+  </div>
+  <div class="slider_container">
+    <i class="fa fa-volume-down"></i>
+    <input type="range" min="0" max="20" value="10" class="volume_slider" onchange="setVolume()">
+    <i class="fa fa-volume-up"></i>
+  </div>
+  <audio id="music" src=""></audio>
+</div>
+//*** por algún motivo q no entiendo el script debe estar debajo
+<script>
+  let track_name = document.querySelector(".songtitle");
+  let playpause_btn = document.querySelector(".playpause-track");
+  let next_btn = document.querySelector(".next-track");
+  let prev_btn = document.querySelector(".prev-track");
+  let seek_slider = document.querySelector(".seek_slider");
+  let curr_time = document.querySelector(".current-time");
+  let total_duration = document.querySelector(".total-duration");
+  let volume_slider = document.querySelector(".volume_slider");
+  let track_index = 0;
+  let isPlaying = false;
+  let updateTimer;
+  let curr_track = document.getElementById("music");
+  let track_list = [
+    {
+      name: "Lovebird - Malcolm Todd",
+      path: "https://files.catbox.moe/apmiag.mp3"
+    },
+    {
+      name: "For the People in The Back - Role Model",
+      path: "https://files.catbox.moe/zn8nxs.mp3"
+    },
+    {
+      name: "Make Me A Better Man - Malcolm Todd",
+      path: "https://files.catbox.moe/usx4sg.mp3",
+    },
+    {
+      name: "Look At That Woman - Role Model",
+      path: "https://files.catbox.moe/6ilg7s.mp3",
+    },
+    {
+      name: "Frances - Role Model",
+      path: "https://files.catbox.moe/5x17bz.mp3",
+    },
+  ];
+  vid = document.getElementById("music");
+  vid.volume = 0.1;
+  function setVolume() {
+    curr_track.volume = volume_slider.value / 100;
+  }
+  function loadTrack(track_index) {
+    clearInterval(updateTimer);
+    resetValues();
+    curr_track.src = track_list[track_index].path;
+    curr_track.load();
+    track_name.textContent = "playing " + (track_index + 1) + " of " + track_list.length + ": " + track_list[track_index].name;
+    updateTimer = setInterval(seekUpdate, 1000);
+    curr_track.addEventListener("ended", nextTrack);
+  }
+  function resetValues() {
+    curr_time.textContent = "0:00";
+    total_duration.textContent = "0:00";
+    seek_slider.value = 0;
+  }
+  function playpauseTrack() {
+    if (!isPlaying) playTrack();
+    else pauseTrack();
+  }
+  function playTrack() {
+    curr_track.play();
+    isPlaying = true;
+    playpause_btn.innerHTML = "<img class='ctrlimg'  src='https://file.garden/Zztv0a9yEhr5pmEq/pause.png'></img>";
+  }
+  function pauseTrack() {
+    curr_track.pause();
+    isPlaying = false;
+    playpause_btn.innerHTML = "<img class='ctrlimg'  src='https://file.garden/Zztv0a9yEhr5pmEq/play.png'></img>";
+  }
+  function nextTrack() {
+    if (track_index < track_list.length - 1)
+      track_index += 1;
+    else track_index = 0;
+    loadTrack(track_index);
+    playTrack();
+  }
+  function prevTrack() {
+    if (track_index > 0)
+      track_index -= 1;
+    else track_index = track_list.length;
+    loadTrack(track_index);
+    playTrack();
+  }
+  function seekTo() {
+    seekto = curr_track.duration * (seek_slider.value / 100);
+    curr_track.currentTime = seekto;
+  }
+  function seekUpdate() {
+    let seekPosition = 0;
+    if (!isNaN(curr_track.duration)) {
+      seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+      seek_slider.value = seekPosition;
+      let currentMinutes = Math.floor(curr_track.currentTime / 60);
+      let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+      let durationMinutes = Math.floor(curr_track.duration / 60);
+      let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+      if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+      if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+      if (currentMinutes < 10) { currentMinutes = currentMinutes; }
+      if (durationMinutes < 10) { durationMinutes = durationMinutes; }
+      curr_time.textContent = currentMinutes + ":" + currentSeconds;
+      total_duration.textContent = durationMinutes + ":" + durationSeconds;
+    }
+  }
+  loadTrack(track_index);
+</script>
+<div class="lace2"></div>
+<div class="espacio"></div>
+  <div class="name"></div>
+  <div id="stamps" class="box2">
+    <marquee behavior="alternate" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+      <img src="fredi(p).png" id="stamps">
+      <img src="esnupi(b).png" id="stamps">
+      <img src="chuu(p).png" id="stamps">
+      <img src="pika(b).gif" id="stamps"> 
+      <img src="tamaki(p).png" id="stamps">
+      <img src="twi(b).png" id="stamps"> 
+      <img src="pastel(p).png" id="stamps"> 
+      <img src="rila(b).png" id="stamps">
+      <img src="pinknation(p).png" id="stamps">
+      <img src="guinea(b).gif" id="stamps">
+      <img src="mymero(p).png" id="stamps">
+      <img src="plusmin(b).png" id="stamps"> 
+      <img src="mymelo(p).png" id="stamps">
+      <img src="bieber(b).gif" id="stamps">
+      <img src="han(p).png" id="stamps">
+      <img src="bows(b).png" id="stamps">
+      <img src="maka(p).png" id="stamps">
+      <img src="mintmelody(b).png" id="stamps">
+      <img src="pachirisu(p).gif" id="stamps">
+      <img src="ohsc(b).gif" id="stamps">
+      <img src="yuu(p).gif" id="stamps">
+      <img src="chiistamp(b).png" id="stamps">
+      <img src="gak(p).png" id="stamps">
+      <img src="mik3(b).png" id="stamps">
+      <img src="pom(p).png" id="stamps"> 
+      <img src="foca(b).gif" id="stamps"> 
+    </marquee>
+  </div>
+  
+<body>
+  <div class="main">
+    <div class="navigation"><br>
+      <div class="mainbox3">
+        <div class="mainbox">
+          <div class="title">
+            <bohemian2> Navegación </bohemian2><br>
+          </div>
+          <div class="espacio3"></div>
+          <span class="bullet"><a href="gustos.html#personajes">67 Cosas que le gustan</a></span> <img src="new.gif" id="cat">
+          <br>
+          <span class="bullet"><a href="error.html">Biografia</a></span>
+          <br>
+          <span class="bullet"><a href="error.html">Familia</a></span>
+          <br>
+          <span class="bullet"><a href="error.html">Quiz</a></span>
+          <br>
+          <span class="bullet"><a href="error.html">Bachi</a></span>
+          <br>
+          <span class="bullet"><a href="error2.html">67</a></span>
+          <br>
+          <span class="bullet"><a href="credits.html">Creditos</a></span><img src="new.gif" id="cat">
+          <br> 
+          <span class="bullet"><a href="index.html">Inicio</a></span>
+          <br>
+        </div>
+      </div>
+      <div class="espacio3"></div>    
+        <center><img src="g77.gif"></center>    
+      <div class="espacio3"></div>
+      <div class="mainbox3">
+        <div class="mainbox">
+          <center><mark> To do: </mark></center>
+          <span class="bullet">Arreglar el Nav</span><br>
+          <span class="bullet">Arreglar el audio de video</span><br>
+          <span class="bullet">Arreglar el About Mati</span><br>
+          <span class="bullet">Video en loop</span><br>
+          <span class="bullet">Loading Screen</span><br>
+          <span class="bullet">Hacer el Quiz</span><br>
+          <span class="bullet">Tw del Index</span><br>
+          <span class="bullet">Arreglar el home que esta horrendo</span><br>
+          <span class="bullet">Arreglar el volver de los creditos</span><br>
+          <span class="bullet">Lace sobre los stamps</span><br>
+          <span class="bullet">Lace sobre los blinkies</span><br>
+          <span class="bullet">Arreglar el To Do</span><br>
+          <span class="bullet">Sonido al hacer click</span><br>
+          <span class="bullet">Click on Mari</span><br>
+          <span class="bullet">Desactivar click derecho</span><br>
+          <span class="bullet">Trail Cursor</span><br>
+          <span class="bullet">Arreglar nav ese titulo</span><br>
+          <span class="bullet">Rehacer el index</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 12</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 13</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 14</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 15</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 16</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 17</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 18</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 19</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 2</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+<span class="bullet">Cosa que le gusta a la mati 9</span><br>
+
+          <span class="bullet">Cosa que le gusta a la mati 9</span><br>
+        </div>
+      </div>
+      <div class="espacio3"></div>
+      <div class="generator">
+        <div class="generate">
+          <div class = "box06" > 
+            <div class = "box-inner" > 
+              <div class="bohemian3"><bohemian2><img src="neoo.webp" id="cat"> Factos</bohemian2></div>  
+              <p id="facts">(˶˃𐃷˂˶)</p>
+              <button class="btn" onclick="generate()">click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <center><img src="iloveu.gif" id="divider"></center>
+      <div class="mainbox">
+        <bohemian>About this page</bohemian><br>
+        Esta es una página web dedicada a mi amiguita <name>Matilda Peralta</name>.<br>
+        Sitio Web creado por y para fans y <name>no</name> es oficial de ninguna manera, de todas maneras, las
+        opiniones vertidas en esta web son completa y total responsabilidad de la <name>Mati</name>, cualquier queja con
+        ella.
+      </div>
+      <div class="mainbox">
+        <bohemian>¿Who Is Mati?</bohemian>
+        <img src="roier.gif" id="aldoxito" style="float:right;" data-toggle="tooltip"><br>
+        La <name>Mati</name> es una niña: agradecida, aguda, amable, amorosa, artistica, asombrosa, atenta, azul, azulada, bácan, bacana, bien-hablada,
+        bilingue, bomba, brillante,
+        calida, cañon, carismatica, cautivadora, celestial, chachi, chanchi, chévere, chistosa, chupi, comiquisima, considerada, cool, divertida, determinada,
+        dotada,
+        elegante, emocionalmente inteligente, encantadora, esplendida, estupenda, excelente, extraordinaria, fantastica, fenomenal, formidable, generosa, genia,
+        genial, gentil, gloriosa, graciosa, guapa, guay, hilarante, honesta, humilde, imaginativa, increible, ingeniosa, inspiradora, justiciera,
+        leal,
+        linda, macanuda, magistral, magnetica, magnifica, maravillosa, misandrica, noble, ocurrente, optimista, padre, padrísima, perfecta, perspicaz poderosa, poliglota, preciosa,
+        preocupada, radiante, respetuosa,
+        sensasional, sensible, simpatica, sobresaliente, talentosa, valiente, vibrante, virtuosa, zen, etc, etc..
+      </div>
+
+      <div class="mainbox">
+        <bohemian>Ranking gente que le cae bn a la Mati</bohemian><br>
+          1.- Teacher Alexis <br>
+          2.- La Miss Anguel<br>
+          3.- La Anto <br>
+          4.- Chuu de Loona <br>
+          4.- La Barbi <br>
+          5.- La Amy <br>
+          6.- El Cristof <br>
+          7.- Paul McCartney <br>
+          8.- Donald Trump<br>
+          9.- Jose Antonio Kast  <br>
+          10.- El Estado de Israel <br>
+          11- El Gabriel Alejandro Salinas Kast <br>
+
+      </div>
+      <video controls width="170">
+        <source src="video.mp4">
+      </video>
+    </div>
+
+    
+
+    <div class="mainbox3punto1"><br>
+      <div class="mainbox">
+        <div class="lace"></div>
+        <bohemian>Oda a la Mati</bohemian><br>
+        היא עמדה איתנה, קול בתוך הסערה<br>
+        אישה של אמונה, לב שנולד מחדש<br>
+        היא אמרה את האמת גם כשהמחיר היה כבד<br>
+        היא חיה למען ישוע, ללא פחד מהמוות<br><br>
+        אנו מטילדה, אנו נושאים את הלהבה<br>
+        נילחם למען הבשורה, נכבד את שמה<br>
+        אנו מטילדה, אומץ ליבה הוא שלנו<br>
+        יחד, בלתי-שבורים, נפיץ את בשורת השמיים<br><br>
+        רעיה ואם, ששמרה את משפחתה קרוב לליבה<br>
+        בית שנבנה על כתבי הקודש, על אמונה ללא פחד<br>
+        העולם ניסה להשתיק, אך קולה נותר<br>
+        הוא מהדהד בתוכנו, ומתקיים במשיח<br><br>
+        אנו מטילדה, אנו נושאים את הלהבה<br>
+        נילחם למען הבשורה, נכבד את שמה<br>
+        אנו מטילדה, אומץ ליבה הוא שלנו<br>
+        יחד, בלתי-שבורים, נפיץ את בשורת השמיים<br><br>
+        הקרב משתולל, החשיכה תרד<br>
+        אנו קמים ברוחה, נענים לקריאה<br>
+        האמת נצחית, הצלב הוא המורה שלנו<br>
+        עם אלוהים כמנהיגנו, אנו צועדים זה לצד זה<br><br>
+        אנו מטילדה, אנו נושאים את הלהבה<br>
+        נילחם למען הבשורה, נכבד את שמה<br>
+        אנו מטילדה, אומץ ליבה הוא שלנו<br>
+        יחד, בלתי-שבורים, נפיץ את בשורת השמיים<br><br>
+        אנו מטילדה<br>
+        חיים לנצח<br>
+        אנו מטילדה<br>
+        עם אלוהים נקום<br><br>
+        <center><img src="seal.webp" id="seal"></center>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<div class="espacio"></div>
+
