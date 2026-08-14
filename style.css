@@ -1,0 +1,268 @@
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/chiikawa-88aad27d-preview-48.webp') 12 9, auto;
+}
+a:hover {
+  color: #ffccdc;
+  font-style: italic;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+a:link {
+  color: black;
+  text-decoration:none;
+}
+a:visited {
+  color: black;
+  text-decoration:none;
+}
+body {
+  background-image: url(background.gif);
+  background-size: 21px, 11rem;
+  background-repeat: repeat;
+  font-family: 'questrial';
+  overflow-x:hidden;
+}
+bohemian {
+  font-family: bohemian;
+  font-size: 20px;
+  color: rgb(255, 204, 220);
+  filter: drop-shadow(1px 1px 0 #2E2E2E) drop-shadow(-1px 1px 0 #2E2E2E) drop-shadow(0 -1px 0 #2E2E2E) drop-shadow(1px 0 #2E2E2E);
+}
+bohemian2 {
+  color: #ffccdc;
+  filter: drop-shadow(1px 1px 0 #2E2E2E) drop-shadow(-1px 1px 0 #2E2E2E) drop-shadow(0 -1px 0 #2E2E2E) drop-shadow(1px 0 #2E2E2E);
+  font-family: bohemian;
+  font-size: 17px;
+}
+.btn :hover {
+  color: black;
+  font-style: italic;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+.bullet::before {
+  background-image: url(bullet.webp);
+  background-size: contain;
+  content: "";
+  display: inline-block; 
+  height: 12px;
+  margin-right: 5px;
+  width: 12px;
+}
+.controls {
+  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+  height: 20px;
+  width: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.ctrlimg {
+  height: 16px;
+  width: 16px;
+}
+.ctrlimg:hover {
+  cursor: help;
+}
+.current-time {
+  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+  margin-right: 3px;
+  padding-right: 5px;
+}
+.espacio {
+  height: 50px;
+}
+.espacio1{
+  height: 2px;
+}
+.espacio2{ /*matii*/
+  height: 30px;
+}
+.espacio3{ /*equivale a unos dos br*/
+  height:20px;
+}
+.espacio4{ /*solo en error por ahorita*/
+  height: 70px;
+}
+.frill {
+  background: url(frill.gif);  
+  background: contain ;
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 20px;
+  left: -10px;
+  position: relative;
+  top: 5px;
+  width: 110%;  
+  z-index: -1;
+}
+@font-face {
+  font-family: bohemian;
+  src: url(https://dl.dropbox.com/s/h1893p3fu9ecwsx/Bohemian%20Soul.otf);
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/1479f8x52y3z5u4/rainyhearts.ttf);
+font-family: hearts;
+}
+@font-face {
+  src: url(https://dl.dropbox.com/s/flezd2lq8mbnwhk/Stabillo%20Medium.ttf);
+  font-family: stabillo medium;
+}
+.mainbox {
+  background: rgba(255, 255, 255);
+  border:1px dashed black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+mark { /*matii*/
+  background: rgb(255, 204, 220);
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  font-family: bohemian;
+  font-size: 16x;
+  padding: 0 5px 0 5px;
+}
+name {
+  color: rgb(255, 204, 220);
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+.nav {
+  border: solid #242424 7px;
+  box-sizing: border-box;
+  border-image: url(frame.png) 8 fill round;
+  border-radius: 10px;
+  overflow: auto;/*para activar la scrollbox*/
+  overflow-x:hidden; 
+  margin-right: 10px;
+  padding: 3px;
+  padding-right: 8px;
+  position: relative;
+  width: 250px;
+}
+.seeking {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px;
+  width: 75%;
+}
+::selection {
+  color: white;
+  background: rgb(255, 204, 220);
+}
+.songtitle {
+  background-color: #ffffff;
+  border: gray inset 1px;
+  border-radius: 6px;
+  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+  display: block;
+  font-family: basiic;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  margin-top: 4px;
+  padding: 2px;
+  width: 300px;
+}
+#sylvanian {
+  width: 230px;
+}
+.total-duration {
+  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+  padding-left: 5px;
+}
+::-webkit-scrollbar {
+  height: 5px;
+  width: 16px;
+}
+::-webkit-scrollbar-button:vertical:end:increment {
+  background: white;
+  background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299200052576387/87ae92e1-3894-4469-b1b9-aedf5f04975c.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border: 1.5px solid #888;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 1px #fff, inset 0 1px 1px #fff;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVChTTc5LboJQGAXguyoCu4ERCzAGlRk7UOwGWIDh0s4M4kxb06RSq/jAB6AxJkJ4lTDrue3AnvyzP+fLId+/yfM8juP7PQmCCOf7B3e+ZD+O40RRVFW12VQUpd3r9U3T2m4OpKoqWZYNwzBZLEqfh0N7NnvfrPcEWlEUWZb9mWF4Ph6D0ylcLbfM5HkeJrhGA2hb15/QXnv+w7RYXsDatjOdvnmrHSnLEizMNE2v11sUXQBCnn98kbquBUGQJAlmq9WB2e3qg4HJdqKkaRql1HGc0WgMcDJ5dd0F24kediZJ8t/ELT69H+8py0CYSIO5AAAAAElFTkSuQmCC") no-repeat 50%, linear-gradient(90deg, #eee 45%, #ddd 0, #bbb)
+}
+::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%)
+}
+
+
+
+
+.btn {
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+  inset 2px 0px #dfdfdf;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: black, 1px;
+  background: #ffccdc;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: hearts;
+  line-height: 1;
+}
+
+
+
+
+.acute { /*el container que permite meter el lace*/
+  position: relative; 
+  width: 100%;       
+  border-radius: 10px;
+  content: contain;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement {
+  display: block
+}
+::-webkit-scrollbar-button:vertical {
+  height: 17px
+}
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background: white;
+  background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299199633141851/download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+::-webkit-scrollbar-button:vertical:start:increment {
+  display: none;
+}
+::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+
+

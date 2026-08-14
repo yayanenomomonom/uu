@@ -1,75 +1,86 @@
-.songtitle {
-  background-color: #ffffff;
-  border: gray inset 1px;
-  border-radius: 6px;
-  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
-  display: block;
-  font-family: basiic;
-  font-size: 15px;
-  letter-spacing: 1px;
-  margin-right: 5px;
-  margin-top: 4px;
-  padding: 2px;
-  width: 300px;
-}
-.controls {
-  width: 80px;
-  height: 20px;
+
+.btn {
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+  inset 2px 0px #dfdfdf;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: black, 1px;
+  background: #ffccdc;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  padding: 5px;
   padding-left: 10px;
-  padding-top: 5px;
   padding-right: 10px;
-  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+  font-family: hearts;
+  line-height: 1;
 }
-.seeking {
-  width: 75%;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 7px;
+.btn :hover {
+  color: black;
+  font-style: italic;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
-.current-time {
-  padding-right: 5px;
-  margin-right: 3px;
-  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+
+
+
+.acute { /*el container que permite meter el lace*/
+  position: relative; 
+  width: 100%;       
+  border-radius: 10px;
+  content: contain;
 }
-.total-duration {
-  padding-left: 5px;
-  filter: drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+.bullet::before {
+  content: "";
+  display: inline-block; 
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background-image: url(bullet.webp);
+  background-size: contain;
 }
-.ctrlimg {
-  height: 16px;
-  width: 16px;
+
+
+
+
+::-webkit-scrollbar-button:vertical {
+  height: 17px
 }
-.ctrlimg:hover {
-  cursor: help;
-}
-input[type=range] {
-  -webkit-appearance: none;
-  width: 100%;
-  background: transparent;
-}
-input[type=range]:focus {
-  outline: none;
-}
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 6px;
-  cursor: help;
-  border-radius: 6px;
-  background: black;
-  border: 1px white solid;
-}
-input[type=range]::-webkit-slider-thumb {
-  height: 30px;
-  width: 20px;
-  background-image: url(song.gif);
-  background-size: 25px;
-  -webkit-appearance: none;
-  margin-top: -10px;
-}
-input[type=range].volume_slider::-webkit-slider-runnable-track {
+::-webkit-scrollbar-button:vertical:start:decrement {
   background: white;
-  filter: drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0 black) drop-shadow(0 0.5px 0.5px black) drop-shadow(0 0.5px black) drop-shadow(0.5px 0.5px 0 black) drop-shadow(0.5px 0.5px 0 black);
+  background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299199633141851/download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+::-webkit-scrollbar-button:vertical:start:increment {
+  display: none;
+}
+::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-button:vertical:end:increment {
+  background: white;
+  background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299200052576387/87ae92e1-3894-4469-b1b9-aedf5f04975c.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+
+
 input[type=range].volume_slider::-webkit-slider-thumb {
   background-image: url(nea.webp);
   background-size: 20px;
